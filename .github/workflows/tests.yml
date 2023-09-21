@@ -21,4 +21,4 @@ jobs:
     - name: update linux
       run: sudo apt update 
     - name: Test
-      run: make test
+      run: cargo test --verbose
