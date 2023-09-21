@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test_sub() {
-        assert_eq!(my_test::sub(1, 2), -1)
+        assert_eq!(my_test::sub(1, 2), 1000)
     }
 
     #[test]
